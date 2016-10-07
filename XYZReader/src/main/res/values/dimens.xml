@@ -9,5 +9,12 @@
     <dimen name="fab_margin">24dp</dimen>
 
     <dimen name="toolbar_container_elevation">4dp</dimen>
+    <dimen name="back_button_width">56dp</dimen>
+    <dimen name="toolbar_container_height">112dp</dimen>
+
+    <dimen name="recycler_view_padding_top">116dp</dimen>
+    <dimen name="recycler_view_padding_bottom">28dp</dimen>
+    <dimen name="fragment_detail_height">100dp</dimen>
+    <dimen name="list_item_padding">4dp</dimen>
 
 </resources>
