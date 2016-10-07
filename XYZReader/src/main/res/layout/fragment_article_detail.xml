@@ -7,7 +7,8 @@
     <com.example.xyzreader.ui.ObservableScrollView
         android:id="@+id/scrollview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:transitionGroup="true">
 
         <android.support.design.widget.CoordinatorLayout
             android:layout_width="match_parent"
@@ -95,8 +96,8 @@
                 android:id="@+id/share_fab"
                 app:layout_anchor="@id/meta_bar"
                 app:fabSize="normal"
-                app:layout_anchorGravity="bottom|end"
-                android:stateListAnimator="@anim/fab_state_list_anim"
+                app:layout_anchorGravity="bottom|right|end"
+                android:stateListAnimator="@animator/fab_state_list_anim"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_share"
